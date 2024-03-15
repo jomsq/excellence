@@ -1,1 +1,53 @@
 /* You can add global styles to this file, and also import other style files */
+
+/* Importing Bootstrap SCSS file. */
+@import 'bootstrap/scss/bootstrap';
+
+.textheader p {
+    color: #0F204B;
+      font-size: 75px;
+      font-weight: bold;
+}
+
+.textheader-light p  {
+    color: white;
+    font-size: 75px;
+    font-weight: bold;
+}
+
+.btn-orange {
+    background-color: #FF8038 !important;
+    width: 200px;
+    height: 50px;
+    border-radius: 40px;
+    color: white;
+ }
+
+
+ .column-content {
+    height: 100%;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+  }
+  
+    .column-content img {
+      width: 75%;
+      height: 100%;
+      object-fit: fill; /* Ensure the image covers the entire space */
+     
+    }
+  
+    .moneyfyhead p {
+      color: #009a70;
+      font-size: 75px;
+      font-weight: bold;
+      
+    }
+
+
+    .column-content-full img {
+        width: 100%;
+        height: 100%;
+        object-fit: fill; /* Ensure the image covers the entire space */
+    }

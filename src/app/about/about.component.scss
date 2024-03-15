@@ -1,0 +1,31 @@
+.about {
+    background-color: #0F204B;
+}
+
+.team-member {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.team-member img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.team-member h3 {
+    margin: 0;
+    font-size: 20px;
+    color: #333;
+}
+
+.team-member p {
+    margin: 5px 0;
+    font-size: 16px;
+    color: #666;
+}
